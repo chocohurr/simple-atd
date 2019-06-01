@@ -7,9 +7,6 @@ public class ATDInteger extends atd {
 	/** Значение свойства, выраженного в int типе */
 	int var;
 	
-	/** Ограничение свойства */
-	private ArrayList<Restriction> rstr;
-	
 	/** Конструктор */
 	public ATDInteger() {
 		super();

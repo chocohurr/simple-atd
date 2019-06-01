@@ -31,6 +31,11 @@ public class Domen {
 	public Domen() {
 		super();
 	}
+
+	public Domen(int idDomen) {
+		super();
+		this.idDomen = idDomen;
+	}
 	
 	
 }

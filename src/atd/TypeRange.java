@@ -2,5 +2,15 @@ package atd;
 
 public class TypeRange extends Restriction{
 	
-	/** Тут будут храниться ограничения range */
+	/** Начало, конец, шаг */
+	double start;
+	double stop;
+	double step;
+	public TypeRange(double start, double stop, double step) {
+		super();
+		this.start = start;
+		this.stop = stop;
+		this.step = step;
+	}
+
 }

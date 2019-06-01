@@ -9,6 +9,15 @@ public class Property {
 	/** Поддерживаемый домен свойства */
 	private Domen name;
 	
-	/** Тип свойства, в котором хранится значение, необходима функция классификации типов */
+	/** Тип свойства, в котором хранится значения */
 	private atd temp;
+
+	public Property(int idProperty, Domen name, atd temp) {
+		super();
+		this.idProperty = idProperty;
+		this.name = name;
+		this.temp = temp;
+	}
+	
+	
 }
